@@ -1,0 +1,174 @@
+
+@media only screen and (max-width:425){
+    #body{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10px 10px 10px; 
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        /*background-color:  #ffecb3;
+        background-color: #ffaa80;
+        background-color: #b3a698;*/
+        /*background-color: #cea77e;*/
+        background-color: yellow;
+    }
+    
+    ul{
+        list-style: none;
+        margin: 0;
+    }
+    
+    li {
+        display: inline;
+        margin: 2%;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #navbar{
+        background-color:black;
+        grid-column: 1;
+        grid-row: 1;
+        width: auto;
+        text-align: center;
+        font-size: 150%;
+
+    }
+    
+    #infoBarContainer{
+        background-color: black;
+        grid-column: 1;
+        grid-row: 1 /span 3;
+        text-align: center;
+        border-style: solid;
+        border-width: 5px;    
+        /*line-height: 20px;*/
+    }
+    
+    #ian{
+        /*height: 70%;
+        width: 80%;*/
+        height: 255px;
+        width: 225px;
+        border-style: solid;
+        border-width: 5px;  
+    }
+    
+    #name{
+        color: black;
+        /*color: #ffecb3;*/
+    }
+    
+    #blurb{ 
+    margin: 5%;
+    }
+    
+    
+    #homeContent{
+        /*background-color:  #ffecb3;*/
+        /*background-color: #ffaa80;*/
+        background-color: black;
+        grid-column: 1;
+        grid-row: 2;        
+        text-align: center;
+        border-style: solid;
+        border-width: 5px; 
+        border-top: none; 
+        border-left: none;
+        border-bottom: none;
+    }
+    
+    
+    #links{
+        background-color:#00664b;
+        grid-column: 2;
+        grid-row: 3;
+        width: auto;
+        border-style: solid;
+        border-width: 5px;
+        border-left: none;
+        text-align: center;
+        font-size: 150%;
+    }
+    
+    #email{
+        color: white;
+    }
+    
+    #gd1{
+    
+     height: 250px;
+     width: 250px;
+    }
+    
+    #gd2{
+        height: 250px;
+        width: 250px;
+    }
+    
+    #gd3{
+        height: 250px;
+        width: 250px;
+    }
+    #gd4{
+        height: 250px;
+        width: 250px;
+    }
+    
+    #gd5{
+        height: 200px;
+        width: 200px;
+    }
+    #gd6{
+        height: 200px;
+        width: 200px;
+    }
+    
+    #ill1{
+        height: 250px;
+        width: 250px;
+    }
+    #ill2{
+        height: 250px;
+        width: 250px;
+    }
+    #ill3{
+        height: 250px;
+        width: 250px;
+    }
+    #ill4{
+        height: 250px;
+        width: 250px;
+    }
+    
+    #homeGraphic{
+        height: 5x;
+        width: 5px;  
+    }
+    
+    #gdTitleImg{
+        height: 275x;
+        width: 275px;  
+    }
+    
+    #wdTitleImg{
+        height: 275x;
+        width: 275px;  
+    }
+    
+    #illTitleImg{
+        height: 336px;
+        width: 336px;  
+    }
+    
+    #inquireTitleImg{
+        height: 275x;
+        width: 275px;   
+    }
+}
